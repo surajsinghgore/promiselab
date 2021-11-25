@@ -1,0 +1,49 @@
+.certficate{
+    clear: both;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+}
+
+.certficate h1{
+    text-align: left;
+    font-size: 40px;
+    padding-left: 50px;
+}
+.certficate  h1::before{
+    display: inline-block;
+    content: "";
+    border-top: .3rem solid rgb(4, 218, 68);
+    width: 4rem;
+    margin: 0 1rem;
+    transform: translateY(-1rem);
+}
+.certficate h1::after{
+    display: inline-block;
+    content: "";
+    border-top: .3rem solid rgb(8, 218, 43);
+    width: 4rem;
+    margin: 0 1rem;
+    transform: translateY(-1rem);
+}
+
+.who .div2
+.certficate .contain{
+    display: flex;
+  
+}
+
+.certficate .contain img{
+    margin-top: -10%;
+    margin-left: 10%;
+}
+
+
+.certficate .contain #fix{
+    position: absolute;
+    top: 2%;
+    right: 17%;
+    font-size: 30px;
+}

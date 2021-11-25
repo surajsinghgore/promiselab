@@ -20,14 +20,14 @@ export default function Header() {
 
             {/* contact */}
             <div className="contact">
-                <FiPhoneCall id="icon" />
+                <FiPhoneCall id="icon"/>
                <h1>+91 8568990340</h1> 
-                <p>info@demolink.org </p> 
+                <p>promiselaboratorieschdng@gmail.com</p> 
             </div>
 
            
             <div className="contact">
-                <FiClock id="icon" />
+                <FiClock id="icon"/>
                <h1>7:00 -  19:00 </h1> 
                 <p>Monday - Saturday</p> 
             </div>
@@ -37,12 +37,7 @@ export default function Header() {
                <h1>Location</h1> 
                 <p>Kamal's P Square, Nada Rd, near Old SBI ATM and Suresh Clinic, Shivalik Vihar, Nayagaon, Punjab</p> 
             </div>
-           {/* location
-            <div className="location"></div>
-
-            
-            <div className="time"></div>
-        */}
+    
         </div>
     )
 }

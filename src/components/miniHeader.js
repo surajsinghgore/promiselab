@@ -14,7 +14,7 @@ export default function MiniHeader() {
 
     var displaySetting = myClock.style.display;
 
-    if (displaySetting == "block") {
+    if (displaySetting === "block") {
       myClock.style.display = "none";
     } else {
       myClock.style.display = "block";

@@ -1,19 +1,15 @@
+import { Routes ,Route } from 'react-router-dom';
 import './App.css';
-import Footer from './components/footer';
-import Header from './components/Header';
-import Miniheader from './components/miniHeader';
+import Home from './pages/Home';
+import Test from './pages/Test';
+
 function App() {
   return (
-    <div className="App">
-     <Miniheader />
-     <Header />
-
-
-
-
-
-     <Footer />
-    </div>
+<Routes>
+<Route exact path="/" element={<Home/>}/>
+<Route exact path="/tests" element={<Test/>}/>
+ </Routes> 
+        
   );
 }
 

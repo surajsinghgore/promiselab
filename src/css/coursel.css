@@ -1,0 +1,48 @@
+#carouselExampleCaptions img{
+
+        float: left;
+        opacity: 0.9;
+        height: 420px;
+        object-fit: cover;
+        filter: opacity(80%);
+    
+}
+
+#title{
+    font-size: 50px;
+    color: rgb(255, 253, 253);
+    text-shadow: 3px 3px 50px rgb(80, 80, 80);
+}
+
+#des{
+    color: rgb(0, 0, 0);
+    font-size: 33px;
+    height: auto;
+    width: auto;
+    background-color: rgb(240, 240, 240);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 2px 50px rgb(255, 255, 255);
+}
+#btn{
+    width: 270px;
+    margin-top: 20%;
+    font-size: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 22px 0px rgb(255, 255, 255);
+    height: 80px;
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    outline: none;
+    margin-bottom: 30px;
+    border: none;
+    transition: all 0.6s;
+}
+
+#btn:hover{
+    background-color: rgb(235, 22, 7);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 19px 0px rgb(41, 40, 40);
+
+}
