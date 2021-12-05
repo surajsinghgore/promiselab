@@ -7,10 +7,13 @@ import allergy from '../api/allergy';
 
 import { IoMdAdd } from 'react-icons/io';
 import '../css/test.css';
+import BookTest from '../props/BookTest';
 export default function Test() {
+
+
     return (
         <div>
-   
+   <BookTest />
         <Miniheader />
      <Header />
             <Navbar />
@@ -21,7 +24,7 @@ export default function Test() {
 
 {allergy.map(name =>( 
  
-    <li>  <p> {name.test}</p><IoMdAdd className="icons" title="Book Test"/></li>  
+    <li>  <p> {name.test}</p><IoMdAdd className="icons" title="Book Test" /></li>  
         ))}  
 
 

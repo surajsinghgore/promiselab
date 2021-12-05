@@ -1,0 +1,134 @@
+.bbtest{
+    clear: both;
+    z-index: 999;
+    position: absolute;
+    top: 0%;
+ 
+    left: 0%;
+    height: 500vh;
+    width: 98vw;
+    background-color: rgb(139, 139, 139);
+    opacity: 0.9;
+}
+
+
+.btest{
+   
+    position: relative;
+margin-top: 4%;
+margin-left: 20%;
+width: 60%;
+height: 420px;
+z-index:999;
+border-radius: 5px;
+box-shadow: 0px 2px 1110px 2px rgb(59, 58, 58);
+background-color: white;
+position: fixed;
+}
+.btest .top{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+
+} 
+.btest .close
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+font-size: 40px;
+padding-right: 10px;
+padding-top: 8px;
+color: black;
+z-index: 1;
+}
+
+.btest .top .bag{
+font-size: 38px;
+margin-left: 38%;
+float: left;
+margin-top: 3%;
+color: rgb(13, 197, 13);
+}
+
+.btest .top p{
+   float: left;
+   margin-left: 2%;
+   border-bottom: 2px solid green;
+  font-weight: bold;
+  padding-bottom: 1%;
+  text-align: center;
+   margin-top: 3%;
+    font-size: 25px;
+}
+
+
+.btest form input{
+    width: 44%;
+    margin-left: 3.5%;
+    margin-top: 1.7%;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid rgb(187, 187, 187);
+
+    float: left;
+    height: 43px;
+    font-size: 20px;
+    padding-left: 1%;
+    color: rgb(109, 109, 109);
+}
+.btest form input:focus{
+    border: 1px solid green;
+}
+
+.btest form textarea{
+    width: 92%;
+    overflow: auto;
+resize:none;
+    margin-left: 3.5%;
+    margin-top: 2%;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid rgb(187, 187, 187);
+    float: left;
+    height: 83px;
+    font-size: 20px;
+
+    padding-left: 1%;
+    color: rgb(109, 109, 109);
+}
+.btest form textarea:focus{
+    border: 1px solid green;
+}
+.btest form button{
+    margin-left: 40%;
+    margin-top: 2%;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #ed3237;
+    border-color: #ed3237;
+    width: 20%;
+    font-size: 20px;
+    cursor: pointer;
+    height: 50px;
+    transition: all 0.7s;
+}
+.btest form button:hover{
+    background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+}
+.btest form button:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btest form button:focus {
+    outline: none;
+}
