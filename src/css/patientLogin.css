@@ -1,14 +1,94 @@
-.patient_Login{
-    position: relative;
+.patient{
+    background-color: rgb(255, 255, 255);
     width: 100%;
     height: 500px;
+    overflow: hidden;
 }
 
+/* patient left table */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+.patient .left{
+    float: left;
+    width: 50%;
+    
+    overflow: hidden;
+}
 
-.patient_Login #bg{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+.patient .left h1{
+    padding-top: 0%;
+    color: rgb(97, 97, 97);
+    padding-left: 7%;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+}
+.patient .left h1 span{
+    font-weight: 700;
+    color: rgb(4, 160, 4);
+}
+
+.patient .left img{
+    width: 65%;
+    margin-left: 9%;
+   height: auto;
+}
+
+/* patient right tab */
+.patient .right{
+    float: left;
+    width: 50%;
+}
+
+.patient .right h4{
+    padding-top: 5%;
+    padding-left: 3%;
+font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.patient .right p{
+      padding-top: 1%;
+    padding-left: 3%;
+    font-size: 20px;
+   
+}
+.patient .right input{
+    margin-top: 4%;
+    margin-left: 3%;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+   
+    padding-bottom: 2%;
+    width: 70%;
+    border-bottom: 2px solid rgb(168, 168, 168);
+}
+
+.patient .right #login-btn{
+width: 70%;
+margin-left: 3%;
+margin-top: 5%;
+height: 45px;
+color: white;
+font-size: 20px;
+background-color: rgb(255, 101, 101);
+border-radius: 30px;
+outline: none;
+border: none;
+}
+
+.patient .right #id-pass{
+    width: 70%;
+    margin-left: 3%;
+    margin-top: 2%;
+    height: 45px;
+    color: rgb(160, 9, 9);
+    background: none;
+    font-size: 20px;
+    margin-right: 20%;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    clear: both;
+    border: 1px solid rgb(255, 101, 101); 
 }

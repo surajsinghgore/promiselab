@@ -5,6 +5,7 @@ import logo from '../Images/logo.png';
 import { GoLocation } from "react-icons/go";
 import { FiPhoneCall } from "react-icons/fi";
 import { FiClock } from "react-icons/fi";
+import {Link} from "react-router-dom";
 
 
 
@@ -15,7 +16,7 @@ export default function Header() {
         <div className="header">
         {/* company */}
             <div className="company">
-<img src={logo} alt={logo} id="logo"/>
+<Link to="/"><img src={logo} alt={logo} id="logo"/></Link>
             </div>
 
             {/* contact */}

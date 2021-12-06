@@ -28,7 +28,7 @@ export default function Home() {
 
      <Miniheader />
      <Header />
-<Navbar />
+<Navbar home={true}/>
 <HomeImg />
 <MedicalServices />
 <WhoOur />

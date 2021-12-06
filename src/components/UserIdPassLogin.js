@@ -1,21 +1,22 @@
 import Header from '../components/Header';
 import Footer from '../components/footer';
 import Navbar from '../components/Navbar';
-import img1 from '../Images/ux/1.png';
-import {Link} from "react-router-dom";
+import img1 from '../Images/ux/4.png';
 import '../css/patientLogin.css';
-export default function PatientLogin() {
+import {Link} from "react-router-dom";
+
+export default function UserIdPassLogin() {
     return (
         <div>
          <Header />
-<Navbar patient={true}/>
+<Navbar />
 <div className="patient">
 
 {/* left side */}
     <div className="left">
 <h1>Welcome to <span> Promise Laboratories</span></h1>
 
-<img src={img1} alt={img1} />
+<img src={img1} alt={img1} style={{width:"45%"},{marginLeft:"5%"}}/>
     </div>
 
     {/* right side  */}
@@ -23,17 +24,17 @@ export default function PatientLogin() {
         <form action="">
             <h4>Login</h4>
             <p>Please enter your Mobile Number to proceed</p>
-            <input type="text" name="mobileNo" id="mobileNo" placeholder="Enter your mobile number"/>
-           
-            <button id="login-btn">Login with OTP</button>
+            <input type="email" name="email" id="email" placeholder="Email Id"/>
+            <input type="password" name="password" id="password" placeholder="Password"/>
+         
+           <button id="login-btn">Login</button>
             </form>
 
 
-           <Link to="/patient_login_id_pass"><button id="id-pass">Login with userId and Password</button></Link>
+           <Link to="/patient_login"> <button id="id-pass" style={{marginTop:"40px"}}>Login with OTP</button></Link>
 
-
+          
       
-       
     </div>
 </div>
 

@@ -16,7 +16,7 @@ export default function Test() {
    <BookTest />
         <Miniheader />
      <Header />
-            <Navbar />
+            <Navbar patient={true}/>
 
 <div className="allergy">
 <h1>ALLERGY </h1>
