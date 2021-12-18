@@ -12,12 +12,12 @@ export default function Footer() {
 {/* labs */}
             <div className="div1">
 <img src={logo} alt={logo} /> 
-<li><GoLocation id="ic" />
+<li><GoLocation id="iccc" />
 <p>Kamal's P Square, Nada Rd, near Old SBI ATM and Suresh Clinic, Shivalik Vihar, Nayagaon,   Punjab</p></li>
-<li><FiPhoneCall id="ic" />
+<li><FiPhoneCall id="iccc" />
 <p>+91 8568990340</p></li>
 <li>
-<AiOutlineMail id="ic" />
+<AiOutlineMail id="iccc" />
 <p>promiselaboratorieschdng@gmail.com</p></li>
 
 

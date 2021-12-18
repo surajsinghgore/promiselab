@@ -1,0 +1,105 @@
+.team{
+    width: 100%;
+   
+    user-select: none;
+}
+
+.team h1{
+    text-align: center;
+    font-size: 23px;
+    color: rgb(67, 207, 250);
+}
+
+.team h3{
+    text-align: center;
+    font-size: 40px;
+   
+    color: rgb(25, 27, 27);
+}
+.team hr{
+    margin-left: 46%;
+    width: 7%;
+    color: rgb(8, 196, 253);
+    height: 3px;
+   margin-bottom: 5%;
+}
+.team .cards{
+    position: relative;
+    float: left;
+    width: 28%;
+    margin-left: 4%;
+ margin-bottom: 5%;
+    height: 450px;
+
+}
+.team .cards .card{
+    height: 57vh;
+
+}
+
+
+
+.team .cards .card img{
+    width: 100%;
+    height: auto;
+}
+
+.team .cards .card ul{
+    position: absolute;
+    top: 30%;
+    right: -1%;
+    background-color: rgb(255, 255, 255);
+    width: 1%;
+    height: auto;
+    padding-right: 11%;
+
+   padding-top: 2%;
+   padding-bottom: 1%;
+    text-align: center;
+    list-style: none;
+}
+.team .cards .card ul #icon{
+font-size: 19px;
+
+text-align: center;
+color: rgb(13, 175, 240);
+}
+
+
+.team .cards .card ul #icon:hover{
+    font-size: 19px;
+    
+    text-align: center;
+    color: rgb(15, 195, 69);
+    }
+.team .cards .card ul li{
+
+height: 34px;
+
+}
+.team .cards .card ul li a{
+    text-decoration: none;
+    text-align: center
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+.team .cards h1{
+    margin-top: 11%;
+    font-family: 'Open Sans', sans-serif;
+    
+text-align: center;
+font-size: 30px;
+}
+
+
+.team .cards p{
+    margin-top: -2%;
+
+text-align: center;
+text-shadow: 0px 0px 1px rgb(56, 56, 56);
+font-weight: 100;
+font-size: 20px;
+font-family: 'Lato', sans-serif;
+color: rgb(73, 231, 0);
+}

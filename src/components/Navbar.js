@@ -20,9 +20,10 @@ export default function Navbar(props) {
           <li>
             SERVICES <RiArrowDropDownLine id="drop" />
             <ul>
-<a><li>Doctors</li></a>
-<a><li>Labtest</li></a>
-<a><li>Rediology</li></a>
+            <Link to="/doctor"><li>Doctors</li></Link>
+<Link to="/tests"><li>Labtest</li></Link>
+<Link to="/rediology"><li>Rediology</li></Link>
+<a><li>Appointment</li></a>
 
 
             </ul>
@@ -83,9 +84,10 @@ export default function Navbar(props) {
           <li  className="active">
             SERVICES <RiArrowDropDownLine id="drop" />
             <ul>
-<a><li>Doctors</li></a>
-<a><li>Labtest</li></a>
-<a><li>Rediology</li></a>
+<Link to="/doctor"><li>Doctors</li></Link>
+<Link to="/tests"><li>Labtest</li></Link>
+<Link to="/rediology"><li>Rediology</li></Link>
+<a><li>Appointment</li></a>
 
 
             </ul>
@@ -146,9 +148,10 @@ export default function Navbar(props) {
           <li>
             SERVICES <RiArrowDropDownLine id="drop" />
             <ul>
-<a><li>Doctors</li></a>
-<a><li>Labtest</li></a>
-<a><li>Rediology</li></a>
+<Link to="/doctor"><li>Doctors</li></Link>
+<Link to="/tests"><li>Labtest</li></Link>
+<Link to="/rediology"><li>Rediology</li></Link>
+<a><li>Appointment</li></a>
 
 
             </ul>
@@ -208,9 +211,10 @@ export default function Navbar(props) {
           <li>
             SERVICES <RiArrowDropDownLine id="drop" />
             <ul>
-<a><li>Doctors</li></a>
-<a><li>Labtest</li></a>
-<a><li>Rediology</li></a>
+<Link to="/doctor"><li>Doctors</li></Link>
+<Link to="/tests"><li>Labtest</li></Link>
+<Link to="/rediology"><li>Rediology</li></Link>
+<a><li>Appointment</li></a>
 
 
             </ul>
@@ -271,10 +275,11 @@ export default function Navbar(props) {
           <li>
             SERVICES <RiArrowDropDownLine id="drop" />
             <ul>
-<a><li>Doctors</li></a>
-<a><li>Labtest</li></a>
-<a><li>Rediology</li></a>
-
+<Link to="/doctor"><li>Doctors</li></Link>
+<Link to="/tests"><li>Labtest</li></Link>
+<Link to="/rediology"><li>Rediology</li></Link>
+<a><li>Appointment</li></a>
+<a><li>Appointment</li></a>
 
             </ul>
           </li>
@@ -333,9 +338,10 @@ export default function Navbar(props) {
           <li>
             SERVICES <RiArrowDropDownLine id="drop" />
             <ul>
-<a><li>Doctors</li></a>
-<a><li>Labtest</li></a>
-<a><li>Rediology</li></a>
+<Link to="/doctors"><li>Doctors</li></Link>
+<Link to="/tests"><li>Labtest</li></Link>
+<Link to="/rediology"><li>Rediology</li></Link>
+<a><li>Appointment</li></a>
 
 
             </ul>

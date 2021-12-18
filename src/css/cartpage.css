@@ -1,0 +1,257 @@
+.cartPage{
+    position: relative;
+    top:0;
+    left: 0;
+
+    width: 100%;
+    margin-bottom: 5%;
+    height: auto;
+}
+.emptys{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+
+}
+
+.emptys #cart{
+    font-size: 120px;
+    margin-top: 8%;
+    margin-left: 45%;
+    color: rgb(248, 61, 61);
+}
+
+.emptys  h1{
+    text-align: center;
+    margin-top: 5%;
+    color: green;
+font-size: 60px;
+}
+.cartPage .back{
+    width: 100%;
+    height: 40px;
+    margin-top: 2%;
+}
+.cartPage .back #back{
+    font-size: 30px;
+    float: left;
+ margin-left: 3%;
+ margin-top: 0.5%;
+    color: rgb(90, 90, 90);
+}
+
+#clearCart{
+    position: absolute;
+    top: 0;
+    right: 37.5%;
+    width: 150px;
+    color: white;
+    text-transform: capitalize;
+    height: 40px;
+background-color: rgb(85, 85, 85);
+    font-size: 20px;
+    margin-top: 4.5%;
+    border: none;
+    margin-left: 40%;
+    padding-bottom: 1%;
+    padding-top: 0.3%;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+#clearCart:hover{
+    box-shadow: 0px 0px 22px 0px rgb(253, 101, 101);
+    border: 1px solid white;
+}
+#change {
+    font-size: 30px;
+    font-weight: 0;
+    transition: all 0.6s;
+
+
+}
+#change:hover{
+    color: rgb(6, 153, 6);
+    font-weight: 600;
+}
+
+#btnMini{
+text-align: center;
+
+    border: none;
+font-size: 20px;
+line-height: -5%;
+color: rgb(4, 153, 4);
+}
+#mini{
+    margin-top: -95%;
+}
+#mini:hover{
+    color: rgb(54, 54, 54);
+}
+
+#empty{
+    font-size: 30px;
+    margin-right: 1%;
+    margin-top: -4%;
+    color: rgb(39, 231, 5);
+}
+.cartPage .back p{
+    font-size: 30px;
+ padding-left:0%;
+}
+.cartPage .back p a{
+    text-decoration: none;
+}
+
+
+/* !test selected */
+.cartPage .testselected{
+    width: 65%;
+    height: auto;
+overflow: hidden;
+margin-bottom: 5%;
+    float: left;
+}
+.cartPage .testselected h3{
+    border-left: 3px solid rgb(15, 15, 15);
+margin-left: 5%;
+font-size: 20px;
+margin-bottom: 4%;
+padding-left: 2%;
+}
+.cartPage .tests{
+    width: 92%;
+   position: relative;
+
+    margin-left: 4%;
+    border: 1px solid rgb(88, 88, 88);
+}
+.cartPage .tests table{
+width: 100%;
+position: relative;
+border: none;
+}
+.cartPage .tests table th{
+    padding-bottom: 2%;
+    padding-top: 3%;
+font-size: 15px;
+color: rgb(14, 14, 14);}
+.cartPage .tests table #tstt{
+  padding-left: 1%;
+}
+.cartPage .tests table td{
+    font-size: 15px;
+    padding-top: 2%;
+    font-weight: 500;
+margin-top: 5%;
+    color: rgb(92, 92, 92);
+    padding-left: 1%;
+}
+.cartPage .tests table #tst{
+    width: 300px;
+}
+.cartPage .tests table #dc{
+    font-weight: 800;
+}
+.cartPage .tests table tr{
+    margin-top: 100px;
+}
+.cartPage .tests table #ttt{
+  background-color: rgb(243, 243, 243);
+}
+
+.cartPage .tests table #del{
+    font-size: 30px;
+    cursor: pointer;
+    color: red;
+}
+/*! test price */
+.cartPage .prices{
+    width: 35%;
+    margin-bottom: 5%;
+
+    float: left;
+
+}
+.cartPage .prices h3{
+    border-left: 3px solid rgb(15, 15, 15);
+margin-left: 3%;
+font-size: 20px;
+margin-bottom: 4%;
+padding-left: 2%;
+}
+
+.cartPage .prices .pirce{
+    border: 1px solid blue;
+    width: 95%;
+    clear: both;
+    height: auto;
+    margin-left: 1%;
+}
+.cartPage .prices .pirce h6{
+    font-size: 17px;
+    padding-left: 4%;
+    margin-left: 6%;
+    border-left: 3px solid rgb(15, 15, 15);
+}
+.cartPage .prices .pirce li{
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+    font-weight: 500;
+    padding-top: 2%;
+    padding-left: 2%;
+    font-size: 18px;
+    padding-bottom: 2%;
+   border-bottom: 1px solid rgb(179, 179, 179);
+}
+.cartPage .prices .pirce li #right{
+    color: blue;
+    float: right;
+    padding-right: 2%;
+    font-weight: 700;
+}
+
+ #amout{
+font-size: 20px;
+font-weight: 700;
+margin-top: 6%;
+width: 70%;
+float: left;
+padding-left: 8%;
+margin-bottom: 5%;
+}
+
+#pri{
+      
+font-size: 20px;
+font-weight: 700;
+margin-top: 6%;
+width: 20%;
+margin-bottom: 5%;
+text-align: center;
+float: left;
+color: rgb(37, 37, 230);
+padding-left: 8%;
+}
+.cartPage .prices .pirce button{
+    width: 150px;
+    height: auto;
+    color: red;
+  margin-left: 60%;
+  background: none;
+    margin-top: 20%;
+    margin-bottom: 5%;
+    padding-top:1%;
+    border: 2px solid green;
+    padding-bottom:1%;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+} 
+.cartPage .prices .pirce button:hover{
+    box-shadow: 0px 0px 20px 0px rgb(43, 44, 28);
+}
+

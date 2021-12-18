@@ -1,0 +1,291 @@
+.rediology{
+   
+    width: 100%;
+    height: auto;
+
+    position: relative;
+}
+
+.rediology .topBar{
+width: 100%;
+
+height: 60px;
+border: 1px solid rgb(214, 214, 214);
+}
+
+.rediology .topBar #search{
+    width: 500px;
+    border: 1px solid rgb(95, 95, 95);
+    outline: none;
+    font-size: 21px;
+    border-radius: 20px;
+    float: left;
+    margin-left: 10%;
+    margin-top: 0.7%;
+transition: all 0.6s;
+
+    padding-left: 20px;
+    height: 40px;
+}
+.rediology .topBar #search:focus{
+border: 1px solid rgb(58, 235, 58);
+}
+/* inside search bar icon */
+#ic{
+    position: absolute;
+    top: 0.6%;
+    font-size: 25px;
+    cursor: pointer;
+    left: 44%;
+    color: rgb(85, 85, 85);
+}
+
+#icc{
+    cursor: pointer;
+    position: absolute;
+    top:0.6%;
+    font-size: 25px;
+    left: 44%;
+    color: rgb(226, 25, 25);
+}
+
+#noti{
+    position: absolute;
+    top: 0.6%;
+    right: 9.2%;
+    width: 2%;
+    text-align: center;
+    height: 20px;
+    color: rgb(5, 56, 139);
+    font-size: 14px;
+    border-radius: 50px;
+    background-color: rgb(236, 246, 145);
+}
+.rediology .topBar .popup{
+position: absolute;
+top: 2%;
+left: 9%;
+width: 40%;
+overflow: hidden;
+overflow-y: auto;
+z-index: 2;
+height: 238px;
+box-shadow: 0px 9px 30px 0px rgb(29, 28, 28);
+border-radius: 3px;
+background-color: rgb(255, 255, 255);
+border: 1px solid rgb(49, 209, 9);
+}
+.rediology .topBar .popup::-webkit-scrollbar{
+    display: none;
+}
+
+.rediology .topBar .popup li{
+    list-style: none;
+    width: 100%;
+    clear: both;
+    height: auto;
+    padding-bottom: 12%;
+border-top: 1px solid green;
+
+}
+.rediology .topBar .popup li:hover{
+    background-color: rgb(245, 245, 245);
+}
+.rediology .topBar .popup li h1{
+    font-size: 20px;
+    width: 98%;
+    margin-left: 1%;
+    height: auto;
+    word-wrap: break-word;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.rediology .topBar .popup li p{
+padding-left: 4%;
+float: left;
+width: 50%;
+height: auto;
+    font-size: 20px;
+}
+.rediology .topBar .popup li button{
+    float: right;
+
+    height: auto;
+    border: 1px solid rgb(67, 255, 67);
+    border-radius: 30px;
+    font-size: 17px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+margin-right: 2%;
+
+}
+.rediology .topBar .popup li button:hover{
+    color: red;
+   box-shadow: 0px 0px 19px 0px red;
+}
+
+
+.rediology .topBar #cart{
+    font-size: 35px;
+    margin-top: 0.7%;
+
+    float: right;
+    cursor: pointer;
+    color: rgb(97, 97, 97);
+transition: all 0.6s;
+margin-right: 10%;
+}
+
+.rediology .topBar #cart:hover{
+    color: rgb(15, 15, 15);
+}
+
+
+
+/* tests show */
+.rediology .testshow{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 1%;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+
+}
+
+.rediology .testshow .tests-items{
+width: 30%;
+position: relative;
+height: 300px;
+float: left;
+margin-left: 2.2%;
+    margin-bottom: 5%;
+
+margin-top: 0%;
+border-radius: 30px;
+/* background-color: rgb(233, 233, 233); */
+border: 1px solid green;
+transition: all 0.4s;
+}
+.rediology .testshow .tests-items h1{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 25px;
+margin-top: 9%;
+
+    color: rgb(28, 181, 228);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rediology .testshow .tests-items h5{
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    font-size: 20px;
+    color: rgb(71, 71, 71);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rediology .testshow .tests-items #iconns{
+    font-size: 40px;
+    margin-top: 2%;
+    margin-right: 4%;
+    margin-left: 9%;
+    color: rgb(73, 71, 71);
+}
+
+.rediology .testshow .tests-items #iconn{
+    font-size: 30px;
+    margin-right: 5%;
+    color: red;
+}
+
+.rediology .testshow .tests-items button{
+    width: 300px;
+    position: absolute;
+    bottom: 10%;
+    left: 13%;
+    height: 50px;
+   
+    color: white;
+
+    font-size: 20px;
+    text-align: center;
+    border-radius: 40px;
+    cursor: pointer;
+ background-color: rgb(253, 67, 67);
+    border: none;
+    outline: none;
+}
+.rediology .testshow .tests-items button:hover{
+    box-shadow: 0px 0px 20px 0px rgb(248, 162, 162);
+}
+
+.rediology .testshow .tests-items #icons{
+    font-size: 30px;
+    margin-right: 1%;
+    color: rgb(255, 253, 253);
+}
+.rediology .testshow .tests-items:hover{
+    transform: scale(-1%);
+    transform: translateZ(0);
+    box-shadow: 0px 0px 10px 0px rgb(37, 37, 37);
+}
+ .rediology .btn-section{
+    clear: both;
+    margin-bottom: 2%;
+    width: 100%;
+    height: 90px;
+text-align: center;
+}
+.rediology .btn-section button{
+width: 100px;
+height: 40px;
+cursor: pointer;
+border-radius: 8px;
+border: none;
+color: rgb(14, 13, 13);
+font-size: 19px;
+background-color: rgb(184, 184, 184);
+margin-left: 1%;
+transition: all 0.6s;
+}
+.rediology .btn-section button:hover{
+    box-shadow: 0px 0px 12px 0px rgb(141, 141, 141);
+}
+
+
+.scrollTop {
+    position: fixed; 
+    width: 100%;
+    bottom: 20px;
+    align-items: center;
+    height: 20px;
+    justify-content: center;
+    z-index: 1000;
+    cursor: pointer;
+    animation: fadeIn 0.3s;
+    transition: opacity 0.4s;
+    opacity: 0.5;
+  }
+  
+  .scrollTop:hover{
+    opacity: 1;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0.5;
+    }
+  }
+
+.actives{
+      color: white !important;
+background-color: rgb(243, 135, 135) !important;
+  }

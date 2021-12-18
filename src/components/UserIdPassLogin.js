@@ -9,7 +9,7 @@ export default function UserIdPassLogin() {
     return (
         <div>
          <Header />
-<Navbar />
+<Navbar patient={true}/>
 <div className="patient">
 
 {/* left side */}
