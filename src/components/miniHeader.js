@@ -22,18 +22,18 @@ export default function MiniHeader() {
   };
   return (
     <div className="miniheader">
-      <div className="icons">
+      <div className="iconsss">
         <li>
-          <FaFacebookF className="icon" title="Facebook" />
+          <FaFacebookF className="iconss" title="Facebook" />
         </li>
         <li>
-          <AiOutlineInstagram className="icon" title="Instagram" />
+          <AiOutlineInstagram className="iconss" title="Instagram" />
         </li>
         <li>
-          <FaLinkedinIn className="icon" title="Linkedin" />
+          <FaLinkedinIn className="iconss" title="Linkedin" />
         </li>
         <li>
-          <AiFillYoutube className="icon" title="Youtube" />
+          <AiFillYoutube className="iconss" title="Youtube" />
         </li>
       </div>
 

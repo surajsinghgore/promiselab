@@ -3,9 +3,10 @@ import Footer from '../components/footer';
 import Navbar from '../components/Navbar';
 import '../css/team.css';
 import {Link} from "react-router-dom";
-import t1 from '../Images/team/t1.jpg';
-import t2 from '../Images/team/t2.jpg';
-import t3 from '../Images/team/t3.jpg';
+
+import imgs1 from '../Images/teams/1.jpg'
+import imgs2 from '../Images/teams/2.jpg'
+import imgs3 from '../Images/teams/3.jpg'
 import DoctorCard from '../props/DoctorCard';
 
 export default function Doctor() {
@@ -31,9 +32,9 @@ export default function Doctor() {
 <h3>A Professional & Care Provider</h3>
 <hr />
 
-<DoctorCard img={t1} fb="" ist="" go="" name="Dr. Frank Bigham" des="Associate Dentist"/>
-<DoctorCard img={t2} fb="" ist="" go="" name="Dr. mukesh rana" des="Associate Dentist"/>
-<DoctorCard img={t3} fb="" ist="" go="" name="Dr. Frank Bigham" des="Associate Dentist"/>
+<DoctorCard img={imgs1} fb="" ist="" go="" name="Dr. Harinder Haushish" des="Health Doctor"/>
+<DoctorCard img={imgs2} fb="" ist="" go="" name="Mr. Sudesh Yadav" des="DMLT, Lab Incharge"/>
+<DoctorCard img={imgs3} fb="" ist="" go="" name="Mr. Ravi" des="Assistant Helper"/>
 
 
 

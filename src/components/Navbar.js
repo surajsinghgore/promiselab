@@ -9,7 +9,7 @@ export default function Navbar(props) {
     if (props.home) {
         return (
             <>
-  <div className="navbar" data-spy="affix" data-offset-top="197">
+  <div className="navbar" >
       <div className="links">
         <Link to="/">
     
@@ -23,15 +23,18 @@ export default function Navbar(props) {
             <Link to="/doctor"><li>Doctors</li></Link>
 <Link to="/tests"><li>Labtest</li></Link>
 <Link to="/rediology"><li>Rediology</li></Link>
-<a><li>Appointment</li></a>
+<Link to="/appointment"><li>Appointment</li></Link>
+<Link to="/homeServices"><li>Home Service</li></Link>
+
+
 
 
             </ul>
           </li>
         </a>
-        <a>
+        <Link to="/gallery">
           <li>GALLERY</li>
-        </a>
+        </Link>
         <a>
           <li>
             PATIENTS <RiArrowDropDownLine id="drop" />
@@ -39,7 +42,7 @@ export default function Navbar(props) {
 <Link to="/tests"><li>Book a Test</li></Link>
 <Link to="/patient_login"><li>Download Report</li></Link>
 <Link to="/patient_login"><li>Patient Login</li></Link>
-<a><li>Home Service</li></a>
+
 <a><li>COVID 19 Test</li></a>
 
 
@@ -87,15 +90,17 @@ export default function Navbar(props) {
 <Link to="/doctor"><li>Doctors</li></Link>
 <Link to="/tests"><li>Labtest</li></Link>
 <Link to="/rediology"><li>Rediology</li></Link>
-<a><li>Appointment</li></a>
+<Link to="/appointment"><li>Appointment</li></Link>
+<Link to="/homeServices"><li>Home Service</li></Link>
+
 
 
             </ul>
           </li>
         </a>
-        <a>
+        <Link to="/gallery">
           <li>GALLERY</li>
-        </a>
+        </Link>
         <a>
           <li>
             PATIENTS <RiArrowDropDownLine id="drop" />
@@ -103,7 +108,7 @@ export default function Navbar(props) {
 <Link to="/tests"><li>Book a Test</li></Link>
 <Link to="/patient_login"><li>Download Report</li></Link>
 <Link to="/patient_login"><li>Patient Login</li></Link>
-<a><li>Home Service</li></a>
+
 <a><li>COVID 19 Test</li></a>
 
 
@@ -151,7 +156,9 @@ export default function Navbar(props) {
 <Link to="/doctor"><li>Doctors</li></Link>
 <Link to="/tests"><li>Labtest</li></Link>
 <Link to="/rediology"><li>Rediology</li></Link>
-<a><li>Appointment</li></a>
+<Link to="/appointment"><li>Appointment</li></Link>
+<Link to="/homeServices"><li>Home Service</li></Link>
+
 
 
             </ul>
@@ -167,7 +174,7 @@ export default function Navbar(props) {
 <Link to="/tests"><li>Book a Test</li></Link>
 <Link to="/patient_login"><li>Download Report</li></Link>
 <Link to="/patient_login"><li>Patient Login</li></Link>
-<a><li>Home Service</li></a>
+
 <a><li>COVID 19 Test</li></a>
 
 
@@ -214,15 +221,17 @@ export default function Navbar(props) {
 <Link to="/doctor"><li>Doctors</li></Link>
 <Link to="/tests"><li>Labtest</li></Link>
 <Link to="/rediology"><li>Rediology</li></Link>
-<a><li>Appointment</li></a>
+<Link to="/appointment"><li>Appointment</li></Link>
+<Link to="/homeServices"><li>Home Service</li></Link>
+
 
 
             </ul>
           </li>
         </a>
-        <a>
+        <Link to="/gallery">
           <li>GALLERY</li>
-        </a>
+        </Link>
         <a>
           <li  className="active">
             PATIENTS <RiArrowDropDownLine id="drop" />
@@ -230,7 +239,7 @@ export default function Navbar(props) {
 <Link to="/tests"><li>Book a Test</li></Link>
 <Link to="/patient_login"><li>Download Report</li></Link>
 <Link to="/patient_login"><li>Patient Login</li></Link>
-<a><li>Home Service</li></a>
+
 <a><li>COVID 19 Test</li></a>
 
 
@@ -278,15 +287,19 @@ export default function Navbar(props) {
 <Link to="/doctor"><li>Doctors</li></Link>
 <Link to="/tests"><li>Labtest</li></Link>
 <Link to="/rediology"><li>Rediology</li></Link>
-<a><li>Appointment</li></a>
-<a><li>Appointment</li></a>
+<Link to="/appointment"><li>Appointment</li></Link>
+<Link to="/homeServices"><li>Home Service</li></Link>
+
+<Link to="/appointment"><li>Appointment</li></Link>
+<Link to="/homeServices"><li>Home Service</li></Link>
+
 
             </ul>
           </li>
         </a>
-        <a>
+        <Link to="/gallery">
           <li>GALLERY</li>
-        </a>
+        </Link>
         <a>
           <li>
             PATIENTS <RiArrowDropDownLine id="drop" />
@@ -294,7 +307,7 @@ export default function Navbar(props) {
 <Link to="/tests"><li>Book a Test</li></Link>
 <Link to="/patient_login"><li>Download Report</li></Link>
 <Link to="/patient_login"><li>Patient Login</li></Link>
-<a><li>Home Service</li></a>
+
 <a><li>COVID 19 Test</li></a>
 
 
@@ -341,15 +354,17 @@ export default function Navbar(props) {
 <Link to="/doctors"><li>Doctors</li></Link>
 <Link to="/tests"><li>Labtest</li></Link>
 <Link to="/rediology"><li>Rediology</li></Link>
-<a><li>Appointment</li></a>
+<Link to="/appointment"><li>Appointment</li></Link>
+<Link to="/homeServices"><li>Home Service</li></Link>
+
 
 
             </ul>
           </li>
         </a>
-        <a>
+        <Link to="/gallery">
           <li>GALLERY</li>
-        </a>
+        </Link>
         <a>
           <li>
             PATIENTS <RiArrowDropDownLine id="drop" />
@@ -357,7 +372,7 @@ export default function Navbar(props) {
 <Link to="/tests"><li>Book a Test</li></Link>
 <Link to="/patient_login"><li>Download Report</li></Link>
 <Link to="/patient_login"><li>Patient Login</li></Link>
-<a><li>Home Service</li></a>
+
 <a><li>COVID 19 Test</li></a>
 
 

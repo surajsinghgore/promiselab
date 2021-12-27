@@ -15,29 +15,36 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     box-shadow: 0px 1px 3px 0px rgb(187, 187, 187);
 }
 
-.miniheader .icons{
+.miniheader .iconsss{
     width: 300px;
     align-items: center;
     height: 40px;
     list-style: none;
     float: left;
-   display: flex;
-   justify-content: center;
+
+  
+  
 }
 
-
-.miniheader .icons .icon{
+.miniheader .iconsss li{
+    height: 40px;
+width: auto;
+    display: inline-block;
+}
+.miniheader .iconsss .iconss{
 font-size: 20px;
 margin-left: 20px;
+margin-top: 10px;
 width: 30px;
 color: rgb(124, 118, 118);
 cursor: pointer;
 transition: all 0.6s;
+
 }
 
 
-.miniheader .icons .icon:hover{
-   color: rgb(38, 170, 15);
+.miniheader .iconsss .iconss:hover{
+   color: rgb(40, 7, 187);
 }
 
 

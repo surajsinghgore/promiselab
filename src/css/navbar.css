@@ -11,6 +11,7 @@
 
 .navbar{
 
+margin-top: 0;
     width: 100%;
     border-top: 3px solid rgb(255, 255, 255);
     height: 10px;
@@ -60,7 +61,7 @@ font-family: 'Public Sans', sans-serif;
 .navbar .links a li ul{
   display: none;
   position: absolute;
-  z-index: 22;
+  z-index: 62;
   margin-top: -17px;
   width: 220px;
   height: auto;
