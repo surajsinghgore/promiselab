@@ -7,17 +7,32 @@ import allergy from '../api/allergy';
 
 import { IoMdAdd } from 'react-icons/io';
 import '../css/test.css';
-import BookTest from '../props/BookTest';
+// import BookTest from '../props/BookTest';
+
+import {Link} from "react-router-dom";
 export default function Test() {
+
 
 
     return (
         <div>
-   <BookTest />
+   {/* <BookTest /> */}
         <Miniheader />
      <Header />
-            <Navbar patient={true}/>
-
+            <Navbar services={true}/>
+            <nav aria-label="breadcrumb">
+        <ol className="breadcrumb">
+          <li className="breadcrumb-item">
+            <Link to="/">Home</Link>
+          </li>
+          <li className="breadcrumb-item active" aria-current="page">
+            Services
+          </li>
+          <li className="breadcrumb-item active" aria-current="page">
+            Labtest
+          </li>
+        </ol>
+      </nav>
 <div className="allergy">
 <h1>ALLERGY </h1>
 <div className="list">

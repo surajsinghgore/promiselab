@@ -16,7 +16,7 @@ export default function UserIdPassLogin() {
     <div className="left">
 <h1>Welcome to <span> Promise Laboratories</span></h1>
 
-<img src={img1} alt={img1} style={{width:"45%"},{marginLeft:"5%"}}/>
+<img src={img1} alt={img1} />
     </div>
 
     {/* right side  */}
@@ -31,7 +31,7 @@ export default function UserIdPassLogin() {
             </form>
 
 
-           <Link to="/patient_login"> <button id="id-pass" style={{marginTop:"40px"}}>Login with OTP</button></Link>
+           <Link to="/patient_login"> <button id="id-pass" >Login with OTP</button></Link>
 
           
       

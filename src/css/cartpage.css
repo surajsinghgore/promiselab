@@ -24,6 +24,7 @@
 }
 
 .emptys  h1{
+    clear: both;
     text-align: center;
     margin-top: 5%;
     color: green;

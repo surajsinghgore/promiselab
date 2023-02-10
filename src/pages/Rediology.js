@@ -1,17 +1,19 @@
+import React from 'react'
+
 import Header from "../components/Header";
 import Footer from "../components/footer";
 import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
-import { AiOutlineShoppingCart } from "react-icons/ai";
 import { AiOutlineSearch } from "react-icons/ai";
+import { AiOutlineShoppingCart } from "react-icons/ai";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { MdAddShoppingCart } from "react-icons/md";
-import { MdPriceCheck } from "react-icons/md";
 import { HiOutlineClipboardList } from "react-icons/hi";
+import { HiOutlineCurrencyRupee } from "react-icons/hi";
 import { BsCartX } from "react-icons/bs";
 import testData from "../api/RadiologyTest";
-import "../css/rediology.css";
-import { useEffect, useState } from "react";
+import "../css/rediology.css";  
+import { useState } from "react";
 import { useCart } from "react-use-cart";
 
 
@@ -19,17 +21,20 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
+
 export default function Rediology() {
 
-  const {
-    items,
-    removeItem
-}=useCart();
+   const {
+     
+     removeItem
+ }=useCart();
+
+
 
 // enable disale remove button
 
   const notify = () => {
-  toast.success('successfully added to cart', {
+  toast.success("successfully added to cart", {
     position: "bottom-right",
     autoClose: 5000,
     hideProgressBar: false,
@@ -40,7 +45,18 @@ export default function Rediology() {
     });
   };
 
-
+  const errornotify = () => {
+    toast.error("successfully removed from cart", {
+      position: "bottom-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      });
+    };
+  
 
   const [count, setCount] = useState({ start: 0, end: 24 });
   const [state, setState] = useState({
@@ -57,7 +73,7 @@ export default function Rediology() {
   });
 
   const { addItem } = useCart();
-  const { totalUniqueItems } = useCart();
+  
 
   const [filterData, setFilterData] = useState([]);
   const [searchbarValue, setSearchbarValue] = useState([]);
@@ -267,7 +283,41 @@ export default function Rediology() {
     scrollTop();
   };
 
-  const [enable,setEnable]=useState(false);
+
+  const add = (id) => {
+   addItem(id);
+
+       let remove=document.getElementById('remove');
+    let btn33=document.getElementById('btn33');
+  notify();
+  btn33.style.display="none";
+  remove.style.display="block"
+
+  }
+
+  const removes=(item)=>{
+    removeItem(item.id)
+    let remove=document.getElementById('remove');
+    let btn33=document.getElementById('btn33');
+    errornotify();
+  btn33.style.display="block";
+  remove.style.display="none"
+
+
+  }
+//   useEffect(() => {
+//     console.log("hooo");
+//     let remove=document.getElementById('remove');
+//     let btn33=document.getElementById('btn33');
+// btn33.addEventListener('click',function(){
+//   notify();
+//   btn33.style.display="none";
+//   remove.style.display="block"
+//   // alert('hii');
+// })
+//   },[addItem]);
+
+
   return (
     <>
       <Header />
@@ -276,6 +326,9 @@ export default function Rediology() {
         <ol className="breadcrumb">
           <li className="breadcrumb-item">
             <Link to="/">Home</Link>
+          </li>
+          <li className="breadcrumb-item active" aria-current="page">
+            Services
           </li>
           <li className="breadcrumb-item active" aria-current="page">
             Rediology
@@ -329,22 +382,14 @@ export default function Rediology() {
             )}
           </div>
 
-          <div className="cart">
-            <Link to="/cartpage">
-              <AiOutlineShoppingCart
-                id="cart"
-                title="cart item"
-                title="Cart List"
-              />
-              <div id="noti">{totalUniqueItems}</div>
-            </Link>
-          </div>
+         
         </div>
 
         {/* down tests */}
 
         <div className="testshow">
-          {testData.slice(count.start, count.end).map((item, ind) => {
+       
+           {testData.slice(count.start, count.end).map((item, ind) => {
       
             return (
               <>
@@ -354,26 +399,26 @@ export default function Rediology() {
                     {item.test}
                   </h1>
                   <h5>
-                    <MdPriceCheck id="iconns" />₹ {item.price}
+                    <HiOutlineCurrencyRupee id="iconns" /> {item.price}
                   </h5>
 
    
-                  <button onClick={() =>addItem(item)} >
-                    <MdAddShoppingCart id="icons" />
+                  <button onClick={() =>add(item)} id="btn33">
+                    <MdAddShoppingCart id="icons"/>
                     
                     ADD TO CART
                   </button> 
                   
-                  {/* <button onClick={()=>removeItem(item.id)}  id="remove" >
+                  <button onClick={()=>removes(item)}  id="remove" >
                     <BsCartX id="icons"  />
                    Remove From Cart         
                   </button> 
-                 */}
+                
                   
                 </div>
               </>
             );
-          })}
+          })} 
           <div className="btn-section">
             <button onClick={page1} className={state.pg1 ? "actives" : ""}>
               1

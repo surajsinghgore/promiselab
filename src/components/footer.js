@@ -3,6 +3,7 @@ import logo from '../Images/logo.png';
 import { GoLocation } from 'react-icons/go';
 import { FiPhoneCall } from 'react-icons/fi';
 import { AiOutlineMail } from 'react-icons/ai';
+import {Link} from "react-router-dom";
 
 
 export default function Footer() {
@@ -27,11 +28,12 @@ export default function Footer() {
         {/* links */}
             <div className="div2">
 <h1>About Us</h1>
-<li><a href="">Company Profile</a></li>
-<li><a href="">Our Team</a></li>
-<li><a href="">Awards and Certificates</a></li>
-<li><a href="">Career</a></li>
-<li><a href="">Blog</a></li>
+<li><Link to="/">Company Profile</Link></li>
+<li><Link to="/doctor">Our Team</Link></li>
+<li><Link to="">Awards and Certificates</Link></li>
+<li><Link to="/career">Career</Link></li>
+<li><Link to="/contactus">Contact Us</Link></li>
+
 
             </div>
         
@@ -39,11 +41,12 @@ export default function Footer() {
         {/* contact us */}
             <div className="div3">
             <h1>Useful Links</h1>
-<li><a href="">Health Packages</a></li>
-<li><a href="">Dietician services</a></li>
-<li><a href="">Home Services</a></li>
-<li><a href="">Test Menu</a></li>
-<li><a href="">Privacy & Payment Policy</a></li>
+<li><Link to="/appointment">Book Appointment</Link></li>
+<li><Link to="/tests">Blood Test</Link></li>
+<li><Link to="/rediology">Rediology Test</Link></li>
+<li><Link to="/homeServices">Home Services</Link></li>
+<li><Link to="/covid19">Covid 19 Test</Link></li>
+
             </div>
 
             <div className="div4">
@@ -52,7 +55,7 @@ export default function Footer() {
             </div>
 
 {/*  */}
-    <div className="copyright"> © Copyright 2021-22 All Rights Reserved | Designed by <a href="">PRP WEBSITES</a> </div>
+    <div className="copyright"> © Copyright 2021-22 All Rights Reserved | Designed by <a href="/prpwebsite" target="_blank">PRP WEBSITES</a> </div>
     
         </div>
     )

@@ -8,7 +8,7 @@
 
 .rediology .topBar{
 width: 100%;
-position: sticky;
+position: relative;
 z-index: 2;
 border: 1px solid rgb(22, 22, 22);
 background-color: #fff;
@@ -55,18 +55,7 @@ border: 1px solid rgb(58, 235, 58);
     color: rgb(226, 25, 25);
 }
 
-#noti{
-    position: absolute;
-    top: 12%;
-    right: 9.2%;
-    width: 2%;
-    text-align: center;
-    height: 20px;
-    color: rgb(5, 56, 139);
-    font-size: 14px;
-    border-radius: 50px;
-    background-color: rgb(236, 246, 145);
-}
+
 .rediology .topBar .popup{
 position: absolute;
 top: 99%;
@@ -172,7 +161,6 @@ margin-left: 2.2%;
 
 margin-top: 0%;
 border-radius: 30px;
-/* background-color: rgb(233, 233, 233); */
 border: 1px solid green;
 transition: all 0.4s;
 }
@@ -193,16 +181,15 @@ margin-bottom: 5%;
 .rediology .testshow .tests-items h5{
     width: 90%;
     height: auto;
-    /* margin-top: 5%; */
     font-size: 20px;
+    padding-top: 5%;
     margin-left: 9%;
     color: rgb(71, 71, 71);
     font-family: Arial, Helvetica, sans-serif;
 }
 .rediology .testshow .tests-items #iconns{
-    font-size: 40px;
-    margin-top: 2%;
-    /* margin-left: 9%; */
+    font-size: 30px;
+margin-left: 4%;    
     color: rgb(73, 71, 71);
 }
 
@@ -232,6 +219,7 @@ z-index: 1;
 
 .rediology .testshow .tests-items #remove{
     width: 300px;
+    display: none;
     position: absolute;
     bottom: 10%;
     left: 13%;

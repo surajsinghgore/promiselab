@@ -9,10 +9,12 @@ import { MdRemoveShoppingCart } from 'react-icons/md';
 import { MdDeleteSweep } from 'react-icons/md';
 import { useCart } from 'react-use-cart';
 
+
 export default function CartStore() {
+   
+   
     const {
         isEmpty,
-        totalItems,
         totalUniqueItems,
         cartTotal,
         updateItemQuantity,
@@ -27,7 +29,7 @@ export default function CartStore() {
 
 <div className="cartPage">
 <div className="back">
-      <p><Link to="/rediology"><span id="change"><BiArrowBack id="back"/> Rediology</span> </Link> / cartPage</p>
+      <p><Link to="/"><span id="change"><BiArrowBack id="back"/> Previous Page</span> </Link> / cartPage</p>
 </div>
 
 {/* empty card message */}

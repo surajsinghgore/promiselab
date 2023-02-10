@@ -29,7 +29,7 @@ export default function PatientLogin() {
             </form>
 
 
-           <Link to="/patient_login_id_pass"><button id="id-pass">Login with userId and Password</button></Link>
+           <Link to="/useridpass"><button id="id-pass">Login with userId and Password</button></Link>
 
 
       

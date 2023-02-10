@@ -1,7 +1,6 @@
 import { Routes ,Route } from 'react-router-dom';
 import './App.css';
-import UserIdPassLogin from './components/UserIdPassLogin';
-import CartPage from './pages/CartStore.js';
+
 
 import ContactUs from './pages/ContactUs';
 import Doctor from './pages/doctor';
@@ -13,7 +12,11 @@ import { CartProvider } from 'react-use-cart';
 import CartStore from './pages/CartStore.js';
 import Gallery from './pages/Gallery';
 import HomeService from './pages/HomeService';
+import UserIdPass from './components/UserIdPassLogin';
 import Appointment from './pages/Appointment';
+import Covid19 from './pages/Covid19';
+import Career from './pages/Career';
+import NewCase from './pages/NewCase';
 function App() {
   return (
     <CartProvider >
@@ -28,6 +31,11 @@ function App() {
 <Route exact path="/gallery" element={<Gallery/>}/>
 <Route exact path="/appointment" element={<Appointment/>}/>
 <Route exact path="/homeServices" element={<HomeService/>}/>
+<Route exact path="/covid19" element={<Covid19/>}/>
+<Route exact path="/useridpass" element={<UserIdPass/>}/>
+<Route exact path="/career" element={<Career/>}/>
+<Route exact path="/newCase" element={<NewCase/>}/>
+
 
 
  </Routes> 

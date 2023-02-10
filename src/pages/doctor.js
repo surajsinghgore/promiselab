@@ -6,7 +6,6 @@ import {Link} from "react-router-dom";
 
 import imgs1 from '../Images/teams/1.jpg'
 import imgs2 from '../Images/teams/2.jpg'
-import imgs3 from '../Images/teams/3.jpg'
 import DoctorCard from '../props/DoctorCard';
 
 export default function Doctor() {
@@ -32,9 +31,9 @@ export default function Doctor() {
 <h3>A Professional & Care Provider</h3>
 <hr />
 
-<DoctorCard img={imgs1} fb="" ist="" go="" name="Dr. Harinder Haushish" des="Health Doctor"/>
-<DoctorCard img={imgs2} fb="" ist="" go="" name="Mr. Sudesh Yadav" des="DMLT, Lab Incharge"/>
-<DoctorCard img={imgs3} fb="" ist="" go="" name="Mr. Ravi" des="Assistant Helper"/>
+<DoctorCard img={imgs1} fb="" ist="" go="" name="Dr. Harinder Kaushish" des="Health Doctor" phone="+91 9872619723"/>
+<DoctorCard img={imgs2} fb="" ist="" go="" name="Mr. Sudesh Yadav" des="DMLT, Lab Incharge" phone="+91 8568990340"/>
+
 
 
 
